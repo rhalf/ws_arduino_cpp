@@ -6,7 +6,7 @@ void setup() {
   //if, else statement
   if (a == b) 
     Serial.println("a is equal to b");
-  else 
+  else
     Serial.println("a is not equal to b");
   //if, else if, else statement
   if (a == b) {

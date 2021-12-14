@@ -17,8 +17,7 @@ void setup() {
   String y = String(f) + "," + String(g);
   Serial.println(y);
   String z = String(h) + "," + String(i);
-  Serial.println(y);
+  Serial.println(z);
 }
 
-void loop() {
-}
+void loop() {}
