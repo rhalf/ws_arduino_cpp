@@ -21,7 +21,7 @@ void setup() {
   Serial.println("uint32_t : " + String(g));
 
   Serial.println("float : " + String(i));
-  Serial.println("bool : " + String(g));
+  Serial.println("bool : " + String(j));
   Serial.println("char : " + String(k));
 }
 void loop() {}

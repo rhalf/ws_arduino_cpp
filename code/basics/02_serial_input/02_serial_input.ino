@@ -4,7 +4,6 @@ void setup() {
 void loop() {
   while (Serial.available()) {
     char input = Serial.read();
-    Serial.print("input: ");
-    Serial.print(input);
+    Serial.println(input);
   }
 }

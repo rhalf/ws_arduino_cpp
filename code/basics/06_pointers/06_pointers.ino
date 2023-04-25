@@ -1,9 +1,10 @@
-uint32_t a = 143;
-uint32_t b = a;
-uint32_t c = &a;
-uint32_t *d = c;
-uint32_t e = &c;
-uint32_t **f = e;
+uint32_t
+  a = 143,
+  b = a,
+  c = &a,
+  *d = c,
+  e = &c,
+  **f = e;
 
 void setup() {
   Serial.begin(9600);
@@ -19,7 +20,7 @@ void setup() {
   Serial.println(e);
   Serial.print("f:");
   Serial.println(**f);
-  
+
   Serial.print("**f:");
   Serial.println(**f);
 }

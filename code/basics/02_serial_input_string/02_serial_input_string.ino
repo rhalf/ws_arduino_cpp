@@ -3,10 +3,7 @@ void setup() {
 }
 void loop() {
   if (Serial.available()) {
-    String input;
-    while (Serial.available()) {
-     input += (char)Serial.read();
-    }
+    String input = Serial.readString();
     Serial.print(input);
   }
 }

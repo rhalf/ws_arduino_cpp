@@ -3,6 +3,7 @@ char b[6] = {"hello world1"};
 char c[] = {'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '1', '\0'};
 char * d = {"hello world2"};
 String e = "hello world3";
+
 void setup() {
   Serial.begin(9600);
   Serial.println(a);

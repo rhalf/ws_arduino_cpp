@@ -19,5 +19,4 @@ void setup() {
   String z = String(h) + "," + String(i);
   Serial.println(z);
 }
-
 void loop() {}

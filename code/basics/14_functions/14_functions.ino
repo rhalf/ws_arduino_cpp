@@ -2,7 +2,8 @@ void setup() {
   Serial.begin(9600);
   f1();
   f2(143);
-  Serial.println(f3());
+  uint8_t result = f3();
+  Serial.println(result);
 }
 
 void f1() { // function
